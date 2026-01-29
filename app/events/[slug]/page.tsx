@@ -1,4 +1,6 @@
-import { supabase } from "@/lib/supabase";
+import { supabase } from "../../../lib/supabase";
+
+
 
 type Props = {
     params: { slug: string };
